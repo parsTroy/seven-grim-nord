@@ -4,7 +4,9 @@ const Navbar = () => {
   return (
     <div className="fixed w-full p-6 text-white/95 bg-black/5 flex justify-between items-start">
       <div>
-        <h1 className="text-3xl font-bold">7Grim</h1>
+        <Link href={"/"}>
+          <h1 className="text-3xl font-bold">7Grim</h1>
+        </Link>
       </div>
 
       <nav className="flex items-center gap-12 font-semibold uppercase">
