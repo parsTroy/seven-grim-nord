@@ -10,7 +10,7 @@ export default function Home() {
           Understand the story of the Nordic Fjord
         </p>
       </div>
-      <Link className="mt-8" href={"/buy"}>
+      <Link className="mt-8" href="/buy">
         <button className="bg-white/15 border-[2px] text-white font-semibold px-4 py-2">
           LEARN MORE
         </button>
