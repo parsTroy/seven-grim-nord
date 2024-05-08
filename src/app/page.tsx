@@ -4,10 +4,10 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
-      <div className="space-y-4 text-center md:mt-48">
+      <div className="space-y-4 text-center mt-20 md:mt-48">
         <h1 className="text-6xl font-bold text-white/45">REDEMPTION AWAITS</h1>
         <p className="text-xl font-bold text-white/65">
-          Understand the story of the Nordic Fjord
+          Live the story of the Nordic Fjord
         </p>
       </div>
       <Link className="mt-8" href="/buy">
